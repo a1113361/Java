@@ -20,7 +20,7 @@ class animal{
     }
 }
 
-public class A1113361 {
+public class A1113361_0324_1 {
     public static void main(String[] args) {
 
         animal [] ani = new animal[4];
