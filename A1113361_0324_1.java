@@ -51,15 +51,12 @@ public class A1113361 {
             for (int i = 0; i < ani.length; i++){
                 System.out.printf("請輸入%s總共奔跑的時間(分鐘):", ani[i].name);
                 x[i]=sc.nextFloat();
+                System.out.printf("僅輸入x(時間)時,%s奔跑的距離為:%f" + "公尺\n\n", ani[i].name, ani[i].distance(x[i]));
 
                 System.out.printf("請輸入%s奔跑時的加速度(公尺/分鐘):", ani[i].name);
                 y[i]=sc.nextFloat();
 
-                if(y[i] == 0){
-                    System.out.printf("%s奔跑的距離為:%f" + "公尺\n\n", ani[i].name, ani[i].distance(x[i]));
-                }else{
-                    System.out.printf("%s奔跑的距離為:%f" + "公尺\n\n", ani[i].name, ani[i].distance(x[i],y[i]));
-                }
+                System.out.printf("%s奔跑的距離為:%f" + "公尺\n\n", ani[i].name, ani[i].distance(x[i],y[i]));
             }
         }
     }
