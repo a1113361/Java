@@ -6,7 +6,7 @@ public class animal{
 
     String name;
     double height, weight, speed;
-
+//動物
     animal(String name,double height,double weight,double speed){
         this.name = name;
         this.height = height;
