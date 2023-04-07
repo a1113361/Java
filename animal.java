@@ -28,7 +28,6 @@ public class animal{
         return distanc;
     }
 }
-
 //人類
 class person extends animal{
     String gender;
@@ -40,7 +39,6 @@ class person extends animal{
         System.out.printf("name: %s\theight: %3.2f(公尺)\tweight: %3.2f(公斤)\tspeed: %3.2f(公尺/分鐘)\tgender: %s\n", this.name, this.height, this.weight, this.speed, this.gender);
     }
 }
-
 //女王
 class snow extends person{
     snow(String name,double height,double weight,double speed,String gender){
