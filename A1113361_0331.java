@@ -38,7 +38,7 @@ public class A1113361_0331 {
             for (int i = 0; i < animals.length; i++){
                 System.out.printf("請輸入%s總共奔跑的時間(分鐘): ", animals[i].name);
                 x[i] = sc.nextFloat();
-                System.out.printf("僅輸入x(時間)時, %s奔跑的距離為:%3.2f" + "公尺\n", animals[i].name, animals[i].distance(x[i]));
+                System.out.printf("僅輸入x(時間)時/輸入x(時間)為0, %s奔跑的距離為:%3.2f" + "公尺\n", animals[i].name, animals[i].distance(x[i]));
 
                 System.out.printf("請輸入%s奔跑時的加速度(公尺/分鐘): ", animals[i].name);
                 y[i] = sc.nextFloat();
@@ -52,7 +52,7 @@ public class A1113361_0331 {
             for (int i = 0; i < people.length; i++){
                 System.out.printf("請輸入%s總共奔跑的時間(分鐘): ", people[i].name);
                 p[i] = sc.nextFloat();
-                System.out.printf("僅輸入x(時間)時, %s奔跑的距離為: %3.2f" + "公尺\n", people[i].name, people[i].distance(p[i]));
+                System.out.printf("僅輸入x(時間)時/輸入x(時間)為0, %s奔跑的距離為: %3.2f" + "公尺\n", people[i].name, people[i].distance(p[i]));
     
                 System.out.printf("請輸入%s奔跑時的加速度(公尺/分鐘): ", people[i].name);
                 q[i] = sc.nextFloat();
@@ -66,7 +66,7 @@ public class A1113361_0331 {
             for (int i = 0; i < 1; i++){
                 System.out.printf("請輸入%s總共奔跑的時間(分鐘): ", queen.name);
                 k[i] = sc.nextFloat();
-                System.out.printf("僅輸入x(時間)時, %s奔跑的距離為: %3.2f" + "公尺\n", queen.name, queen.distance(k[i]));
+                System.out.printf("僅輸入x(時間)時/輸入x(時間)為0, %s奔跑的距離為: %3.2f" + "公尺\n", queen.name, queen.distance(k[i]));
 
                 System.out.printf("請輸入%s奔跑時的加速度(公尺/分鐘): ", queen.name);
                 j[i] = sc.nextFloat();
